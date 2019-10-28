@@ -1,8 +1,8 @@
 How can we find out oracle database is up and running ?
-'''
+```
 ps -ef | grep pmon
+```
 
-'''
 
 How to find out the listener status.
 
