@@ -1,0 +1,15 @@
+How can we find out oracle database is up and running ?
+'''
+ps -ef | grep pmon
+
+'''
+
+How to find out the listener status.
+
+lsnrctl status
+
+Server running status ?
+
+Uptime
+
+HOW TO START AND STOP the listener. 
