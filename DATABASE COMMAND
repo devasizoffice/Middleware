@@ -1,15 +1,7 @@
-How can we find out oracle database is up and running ?
+# RESTARTING MIDDLEWARE ADMIN AND MANAGE SERVERS
+## RESTARTING FROM WEBLOGIC CONSOLE
 ```
-ps -ef | grep pmon
+  cd /opt/
+  
+  sudo wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz
 ```
-
-
-How to find out the listener status.
-
-lsnrctl status
-
-Server running status ?
-
-Uptime
-
-HOW TO START AND STOP the listener. 
