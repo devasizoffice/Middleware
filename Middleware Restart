@@ -10,6 +10,6 @@ Procedure to be followed when console is not opening and servers restart is requ
 STEP 1:
 1.	we have to check if servers are already running using below command.
 
-```
+`
 ps -eaf|grep java
-```
+`
