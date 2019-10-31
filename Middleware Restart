@@ -1,0 +1,15 @@
+Steps involved in restarting servers.
+
+Procedure to be followed when console is not opening and servers restart is required:
+1. Stop nodemanager from putty
+2. Stop the servers by killing processid one by one.
+3. Take backup of tmp ,cache and stage folders and deleting tmp cache and stage folder from the servers directory.
+4. Start the Admin server then  nodemanager then managed servers one by one.
+5. Stop nodemanager from putty & Stop the servers by killing processid one by one.
+
+STEP 1:
+1.	we have to check if servers are already running using below command.
+
+```
+ps -eaf|grep java
+```
