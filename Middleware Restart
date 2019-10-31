@@ -1,4 +1,4 @@
-Steps involved in restarting servers.
+# Steps involved in restarting servers.
 
 Procedure to be followed when console is not opening and servers restart is required:
 1. Stop nodemanager from putty
